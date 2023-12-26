@@ -1,0 +1,29 @@
+#    /*
+#    
+#        Website developed by Andrei Frîntu
+#        Critical maintenance @ codulluiandrei.ro
+#
+#        Version:    3.7@main:tb
+#        Stage:      published@teaborgs.ro
+#        Contact:    admin@codulluiandrei.ro
+#
+#    */
+
+RewriteEngine On
+
+# force https redirect
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# force non-www redirect
+RewriteCond %{HTTP_HOST} ^www.teaborgs.ro [NC]
+RewriteRule ^(.*)$ http://teaborgs.ro/$1 [L,R=301]
+
+
+RewriteRule ^map/ /map.php [L]
+RewriteRule ^about/ /index.php#about [NE,R,L]
+RewriteRule ^news/ /news.php [L]
+RewriteRule ^gallery/ /gallery.php [L]
+
+RewriteRule ^team/([0-9]+)$ /teams.php?y=$1 [L]
+RewriteRule ^sponsors/([0-9]+)$ /sponsors.php?y=$1 [L]
+RewriteRule ^awards/([0-9]+)$ /awards.php?y=$1 [L]
