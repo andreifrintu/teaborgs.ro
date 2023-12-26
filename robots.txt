@@ -1,0 +1,5 @@
+Sitemap: https://teaborgs.ro/sitemap.xml
+User-agent: CuteStat
+Disallow: /
+User-agent: *
+Disallow: /static/

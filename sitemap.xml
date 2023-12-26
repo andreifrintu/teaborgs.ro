@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	  	  
+<!-- www.check-domains.com sitemap generator -->
+
+<url>
+   <loc>https://www.teaborgs.ro/</loc>
+   <lastmod>2023-11-11T13:24:20+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>1.0</priority>
+</url>
+<url>
+   <loc>https://www.teaborgs.ro/map/</loc>
+   <lastmod>2023-11-11T13:24:20+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>1.0</priority>
+</url>
+<url>
+   <loc>https://www.teaborgs.ro/gallery/</loc>
+   <lastmod>2023-11-11T13:24:20+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>1.0</priority>
+</url>
+<url>
+   <loc>https://www.teaborgs.ro/news/</loc>
+   <lastmod>2023-11-11T13:24:20+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8</priority>
+</url>
+<url>
+   <loc>https://www.teaborgs.ro/awards/2019</loc>
+   <lastmod>2023-11-11T13:24:20+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8</priority>
+</url>
+<url>
+   <loc>https://www.teaborgs.ro/awards/2020</loc>
+   <lastmod>2023-11-11T13:24:20+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8</priority>
+</url>
+<url>
+   <loc>https://www.teaborgs.ro/awards/2021</loc>
+   <lastmod>2023-11-11T13:24:20+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8</priority>
+</url>
+<url>
+   <loc>https://www.teaborgs.ro/awards/2022</loc>
+   <lastmod>2023-11-11T13:24:20+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8</priority>
+</url>
+<url>
+   <loc>https://www.teaborgs.ro/awards/2023</loc>
+   <lastmod>2023-11-11T13:24:20+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8</priority>
+</url>
+<!-- 2024 awards
+<url>
+   <loc>https://www.teaborgs.ro/awards/2024</loc>
+   <lastmod>2023-11-11T13:24:20+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8</priority>
+</url>
+-->
+<url>
+   <loc>https://www.teaborgs.ro/team/2019</loc>
+   <lastmod>2023-11-11T13:24:20+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8</priority>
+</url>
+<url>
+   <loc>https://www.teaborgs.ro/team/2020</loc>
+   <lastmod>2023-11-11T13:24:20+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8</priority>
+</url>
+<url>
+   <loc>https://www.teaborgs.ro/team/2021</loc>
+   <lastmod>2023-11-11T13:24:20+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8</priority>
+</url>
+<url>
+   <loc>https://www.teaborgs.ro/team/2022</loc>
+   <lastmod>2023-11-11T13:24:20+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8</priority>
+</url>
+<url>
+   <loc>https://www.teaborgs.ro/team/2023</loc>
+   <lastmod>2023-11-11T13:24:20+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8</priority>
+</url>
+<url>
+   <loc>https://www.teaborgs.ro/team/2024</loc>
+   <lastmod>2023-11-11T13:24:20+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8</priority>
+</url>
+<url>
+   <loc>https://www.teaborgs.ro/sponsors/2019</loc>
+   <lastmod>2023-11-11T13:24:20+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8</priority>
+</url>
+<!-- 2020 sponsors
+<url>
+   <loc>https://www.teaborgs.ro/sponsors/2020</loc>
+   <lastmod>2023-11-11T13:24:20+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8</priority>
+</url>
+-->
+<!-- 2021 sponsors
+<url>
+   <loc>https://www.teaborgs.ro/sponsors/2021</loc>
+   <lastmod>2023-11-11T13:24:20+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8</priority>
+</url>
+-->
+<url>
+   <loc>https://www.teaborgs.ro/sponsors/2022</loc>
+   <lastmod>2023-11-11T13:24:20+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8</priority>
+</url>
+<url>
+   <loc>https://www.teaborgs.ro/sponsors/2023</loc>
+   <lastmod>2023-11-11T13:24:20+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8</priority>
+</url>
+<!-- 2024 sponsors
+<url>
+   <loc>https://www.teaborgs.ro/sponsors/2024</loc>
+   <lastmod>2023-11-11T13:24:20+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8</priority>
+</url>
+-->
+
+</urlset>
