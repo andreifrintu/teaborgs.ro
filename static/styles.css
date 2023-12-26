@@ -1,0 +1,198 @@
+    
+    /*
+    
+        Website developed by Andrei Frîntu
+        Critical maintenance @ codulluiandrei.ro
+
+        Version:    3.7@main:tb
+        Stage:      published@teaborgs.ro
+        Contact:    admin@codulluiandrei.ro
+
+    */
+    
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&family=Pattaya&family=Unbounded:wght@200;300;400;500;600;700;800;900&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Belanosima:wght@400;600&family=Courgette&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --night: #141516ff;
+    --celtic-blue: #1c72d3ff;
+    --celtic-blue-2: #186cd3ff;
+    --royal-blue-web-color: #4b6ddaff;
+    --saffron: #e6be3cff;
+    --xanthous: #eeb225ff;
+    --seasalt: #fcfaf9ff;
+}
+* {
+    font-family: 'K2D', sans-serif;
+    font-weight: 500;
+}
+.text-unbounded {
+    font-family: 'Unbounded', cursive;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    font-size: 30px;
+}
+.text-justify {
+    text-align: justify !important;
+}
+.text-blue {
+    color: var(--celtic-blue-2) !important;
+}
+.text-blue-light {
+    color: var(--celtic-blue) !important;
+}
+.nav-link {
+    color: var(--celtic-blue-2) !important;
+}
+.nav-link:hover {
+    color: var(--royal-blue-web-color) !important;
+}
+.tb-background {
+    background: var(--celtic-blue);
+}
+.bg-gradient-transparent {
+    background-size: cover;
+    background-image: linear-gradient(180deg, #DDDDDD, transparent);
+}
+.nav-item:hover {
+    border: 1px solid var(--royal-blue-web-color);
+    background: var(--seasalt);
+    transition: .3s;
+}
+.nav-item {
+    border: 1px solid transparent;
+    padding-left: 7px;
+    padding-right: 7px;
+    transition: .3s;
+}
+.tb-hero {
+    width: 100%;
+    min-height: 100vh;
+}
+.tb-half-hero {
+    width: 100%;
+    min-height: 50vh !important;
+}
+.btn:hover {
+    color: var(--celtic-blue-2) !important;
+}
+.btn:active {
+    color: var(--royal-blue-web-color) !important;
+}
+.footer-item > a {
+    color: var(--bs-gray-300) !important;
+}
+.footer-item > a:hover {
+    color: var(--bs-white) !important;
+}
+select > option {
+    background-color: #FFF;
+    color: var(--celtic-blue);
+}
+.w-20 {
+    width: 20%;
+}
+.w-23 {
+    width: 23%;
+}
+.w-80 {
+    width: 80%;
+}
+.cover {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    min-height: 100%;
+    background: url('pages/index.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+    filter: saturate(120%);
+}
+.gears {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background: url('pages/about.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+}
+@media (max-width: 991.98px) {
+    .pad-sm-0 {
+        padding: 0 !important;
+    }
+    .w-sm-100 {
+        width: 90% !important;
+    }
+    .w-md-100 {
+        width: 100% !important;
+    }
+    .fl-cont {
+        flex-direction: column;
+    }
+    .w-sm-75 {
+        width: 75% !important;
+    }
+    .h-300 {
+        height: 300px !important;
+    }
+    .text-md-white {
+        color: #fff !important;
+    }
+    .text-md-lg {
+        font-size: calc(1.275rem + .3vw)!important;
+    }
+}
+
+/* animations */
+.fit {
+    visibility: hidden;
+}
+.fib {
+    visibility: hidden;
+}
+.fil {
+    visibility: hidden;
+}
+.fir {
+    visibility: hidden;
+}
+#Footer {
+    visibility: hidden;
+}
+.fade-in-left, .fade-in-right, .fade-in-top, .fade-in-bottom {
+    position: relative;
+}
+.fade-in-left {
+    animation: fil 0.4s;
+}
+.fade-in-right {
+    animation: fir 0.4s;
+}
+.fade-in-top {
+    animation: fit 0.4s;
+}
+.fade-in-bottom {
+    animation: fib 0.4s;
+}
+@keyframes fil {
+    0% { left: -300px; opacity: 0; }
+    100% { left: 0; opacity: 1; }
+}
+@keyframes fir {
+    0% { right: -300px; opacity: 0; }
+    100% { right: 0; opacity: 1; }
+}
+@keyframes fit {
+    0% { top: -300px; opacity: 0; }
+    100% { top: 0; opacity: 1; }
+}
+@keyframes fib {
+    0% { bottom: -300px; opacity: 0; }
+    100% { bottom: 0px; opacity: 1; }
+}
