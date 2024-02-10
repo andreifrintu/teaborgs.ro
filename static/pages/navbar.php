@@ -13,7 +13,7 @@
 <nav class="navbar navbar-expand-lg navbar-light" style="background: #fcfaf9ff !important; z-index: 999;">
     <div class="container">
         <div class="d-flex align-items-center fit">
-            <img alt="" src="/static/logo/logo-2024.png" width="80px">
+            <img alt="" src="/static/logo/logo-v2-2024.png" width="80px">
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas_navbar" aria-controls="offcanvas_navbar">
             <span class="navbar-toggler-icon"></span>

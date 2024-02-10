@@ -31,7 +31,7 @@
 
     /* routing pages for future interactions */
     $router['page'] = 'news';
-    $router['logo'] = 'logo-2024';
+    $router['logo'] = 'logo-v2-2024';
     $router['lang'] = $l = (isset($_COOKIE['language'])) ? $_COOKIE['language'] : 1;
 
 ?>

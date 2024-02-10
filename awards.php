@@ -31,7 +31,7 @@
 
     /* routing pages for future interactions */
     $router['page'] = 'awards';
-    $router['logo'] = 'logo-2024';
+    $router['logo'] = 'logo-v2-2024';
     $router['lang'] = $l = (isset($_COOKIE['language'])) ? $_COOKIE['language'] : 1;
 
     $years_of_activity = array("2019", "2020", "2021", "2022", "2023", "2024");
