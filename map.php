@@ -83,12 +83,12 @@
 
 
         <div class="d-flex fl-cont align-items-center justify-content-center position-absolute w-md-100" style="width: 100%; height: 100%; top: 0;">
-            <div id="map" style="width: 100% !important; height: 100% !important;"></div>
+            <div id="map" style="width: 100% !important; height: 80% !important;"></div>
             <script>
                 const map = new maplibregl.Map({
                     container: 'map',
                     style: 'https://api.maptiler.com/maps/streets/style.json?key=Lb7pFg7y9vYzpCGtLbmm',
-                    center: [25, 46.25],
+                    center: [25, 46],
                     zoom: 6.5
                 });
                 
@@ -142,6 +142,9 @@
                     new maplibregl.Marker({element: markerElement}).setLngLat(marker.geometry.coordinates).addTo(map);
                 });
             </script>
+        </div>
+        <div class="w-100 d-flex align-items-center justify-content-center position-absolute gap-2" style="height: 10%; bottom: 0 !important;">
+            <a href="#signin" class="text-white fs-4">Înscrieți-vă echipa pe website-ul nostrul! <img width="48px" height="48px" src="https://img.icons8.com/ios-glyphs/90/FFFFFF/thick-arrow-pointing-down.png" alt=""></a>
         </div>
     </section>
     
