@@ -13,7 +13,7 @@
 <div class="text-white py-5 mt-5 w-75 w-sm-100 align-items-center m-auto border-top d-flex fl-cont gap-2" id="Footer">
     <div style="width: 25%;" class="w-sm-100 d-flex align-items-center flex-column fil">
         <img alt="" src="/static/logo/logo-v2-2024.png" class="img-fluid">
-        <p class="text-white text-unbounded text-center fs-5">© 2018 - 2023</p>
+        <p class="text-white text-unbounded text-center fs-5">© 2018 - 2024</p>
     </div>
     <div style="width: 25%;" class="w-sm-100 d-flex align-items-end text-end flex-column fir">
         <h5><?php echo ($l == 1) ? "Rețele de socializare" : "Social media"; ?></h5>
