@@ -157,7 +157,18 @@
                 $url = mysqli_real_escape_string($conn, $_POST['url']);
                 $code = mysqli_real_escape_string($conn, sha1(mt_rand(100000, 999999)));
                 $photo = "/static/map-photos/" . $code . ".png";
+                
                 $coord = mysqli_real_escape_string($conn, $_POST['coord']);
+                $numbers = explode(',', $coord);
+                $number1 = trim($numbers[0]);
+                $number2 = trim($numbers[1]);
+                if ($number1 > $number2) {
+                    $temp = $number1;
+                    $number1 = $number2;
+                    $number2 = $temp;
+                }
+                $coord = $number1 . ', ' . $number2;
+
             
                 if ($_FILES['photo']['error'] === UPLOAD_ERR_OK) {
                     $tempFile = $_FILES['photo']['tmp_name'];
