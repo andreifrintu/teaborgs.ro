@@ -98,7 +98,7 @@
                         <?php
                         
                             $contor = 0;
-                            $map = mysqli_query($conn, "SELECT * FROM `" . $db['table'] . "` ORDER BY `id` DESC");
+                            $map = mysqli_query($conn, "SELECT * FROM `" . $db['table'] . "` ORDER BY `id`");
                             
                             while ($cont = mysqli_fetch_assoc($map)) {
                                 $contor = $contor + 1;
