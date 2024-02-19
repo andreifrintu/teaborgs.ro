@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gazdă: localhost:3306
--- Timp de generare: feb. 15, 2024 la 08:34 PM
+-- Timp de generare: feb. 19, 2024 la 09:11 PM
 -- Versiune server: 5.7.44
 -- Versiune PHP: 8.1.27
 
@@ -134,6 +134,8 @@ INSERT INTO `map` (`id`, `nume`, `url`, `poza`, `coord`, `data`) VALUES
 (2, 'InfinityBolts #19093 RO056', 'https://www.instagram.com/infinity.bolts/', '/static/map-photos/920217252a107165f660729ce30f18a9f1074c8e.png', '21.32905709,46.18271643', '2024-02-13 21:01:19'),
 (3, 'Clockworks #19075 | RO108', 'https://clockworks.ro/ro/', '/static/map-photos/3f18440b57c5e6d303bcf77563ad9c923334c46d.png', '26.103710,44.414237', '2024-02-13 21:00:47'),
 (4, 'AlphaBit ', 'https://www.alphabit.ro/', '/static/map-photos/e813f6b4283263c317fc4bb5eeb6ccbbb089385c.png', '23.3731288,45.4161434', '2024-02-15 18:10:49'),
+(14, 'Dark Energy #19106 | RO115', 'https://www.instagram.com/darkenergy.ro115?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==', '/static/map-photos/769ee62dd5304716a8971ee9860585533a70dafe.png', '22.9008209, 45.8831246', '2024-02-15 19:00:43'),
+(15, 'WATT`s UP 16166 | RP023', 'https://www.wattsup.ro/', '/static/map-photos/6b344cff09a63a90129888e5f7d75471c5f27c95.png', '25.04081385767053, 45.26439676755202', '2024-02-19 11:35:42'),
 (6, 'RavenTech HD #19047 | RO121', 'https://www.instagram.com/raventech_hd?igsh=NmJ1amtiN3UzMzRk', '/static/map-photos/4ccb5d811b16d704a1815c213bd13eedb07ece11.png', '22.9096903,45.7502867', '2024-02-15 18:18:54'),
 (5, 'Wafy #20985/ RO_063', 'https://www.instagram.com/echipa_wafy?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==', '/static/map-photos/a9936f255f4ce0e4b4d486be0dc93c16ae987525.png', '23.40345712223176,45.45133062862227', '2024-02-15 18:18:51');
 
@@ -336,7 +338,7 @@ ALTER TABLE `gallery`
 -- AUTO_INCREMENT pentru tabele `map`
 --
 ALTER TABLE `map`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT pentru tabele `members`
