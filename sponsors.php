@@ -31,14 +31,14 @@
 
     /* routing pages for future interactions */
     $router['page'] = 'sponsors';
-    $router['logo'] = 'logo-v2-2024';
+    $router['logo'] = 'logo-v3-2024';
     $router['lang'] = $l = (isset($_COOKIE['language'])) ? $_COOKIE['language'] : 1;
 
-    $years_of_activity = array("2019", "2020", "2021", "2022", "2023", "2024");
-    $year = (isset($_GET['y']) && in_array($_GET['y'], $years_of_activity)) ? $_GET['y'] : "2023";
+    $years_of_activity = array("2024");
+    $year = (isset($_GET['y']) && in_array($_GET['y'], $years_of_activity)) ? $_GET['y'] : "2024";
 
     if (!isset($_GET['y']) || !in_array($_GET['y'], $years_of_activity))
-        header("Location: /sponsors/2023");
+        header("Location: /sponsors/2024");
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo ($l == 1) ? "ro" : "en"; ?>">
