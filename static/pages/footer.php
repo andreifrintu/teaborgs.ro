@@ -12,7 +12,7 @@
 ?>
 <div class="text-white py-5 mt-5 w-75 w-sm-100 align-items-center m-auto border-top d-flex fl-cont gap-2" id="Footer">
     <div style="width: 25%;" class="w-sm-100 d-flex align-items-center flex-column fil">
-        <img alt="" src="/static/logo/logo-v2-2024.png" class="img-fluid">
+        <img alt="" src="/static/logo/logo-v3-2024.png" class="img-fluid">
         <p class="text-white text-unbounded text-center fs-5">© 2018 - 2024</p>
     </div>
     <div style="width: 25%;" class="w-sm-100 d-flex align-items-end text-end flex-column fir">
@@ -26,7 +26,7 @@
     <div style="width: 25%;" class="w-sm-100 d-flex align-items-end text-end flex-column fir">
         <h5>Contact</h5>
         <ul class="nav flex-column">
-            <li class="footer-item mb-2"><a target="_blank" href="https://www.instagram.com/tea_borgs" class="nav-link p-0 text-body-secondary disabled invisible">.</a></li>
+            <li class="footer-item mb-2"><a target="_blank" href="https://linktr.ee/tea_borgs" class="nav-link p-0 text-body-secondary">Linktree <img alt="" src="/static/icons/icons8-linktree-96.png" style="width: 32px !important; height: 32px !important;"></a></li>
             <li class="footer-item mb-2"><a target="_blank" href="mailto:teaborgs26@gmail.com" class="nav-link p-0 text-body-secondary">E-mail: teaborgs26@gmail.com <img alt="" src="/static/icons/icons8-email-96.png" style="width: 32px !important; height: 32px !important;"></a></li>
             <li class="footer-item mb-2"><a target="_blank" href="https://goo.gl/maps/t5atCRuUXgEtuBpX9" class="nav-link p-0 text-body-secondary"><?php echo ($l == 1) ? "Strada Unirii" : "Union Street"; ?>, Târgu Jiu 210007 <img alt="" src="/static/icons/icons8-address-96.png" style="width: 32px !important; height: 32px !important;"></a></li>
         </ul>
