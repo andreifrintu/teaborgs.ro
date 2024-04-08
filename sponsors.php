@@ -34,7 +34,7 @@
     $router['logo'] = 'logo-v3-2024';
     $router['lang'] = $l = (isset($_COOKIE['language'])) ? $_COOKIE['language'] : 1;
 
-    $years_of_activity = array("2024");
+    $years_of_activity = array("2024", "2023", "2022", "2021", "2020", "2019");
     $year = (isset($_GET['y']) && in_array($_GET['y'], $years_of_activity)) ? $_GET['y'] : "2024";
 
     if (!isset($_GET['y']) || !in_array($_GET['y'], $years_of_activity))
@@ -86,7 +86,7 @@
         <h1 class="text-unbounded text-center text-white mt-5" id="Second"><?php echo ($l == 1) ? "Mulțumim pentru sponsorizare!" : "Thank you for sponsoring us!"; ?></h1>
         <h1 class="text-unbounded text-center justify-content-center text-white mt-5 d-flex align-items-center gap-2 fl-cont"><?php echo ($l == 1) ? "Vizualizezi sponsorii noștrii din sezonul" : "You are viewing our sponsors from season"; ?>
         <select class="form-select form-select-lg text-unbounded text-blue w-sm-100" style="width: auto;" id="year">
-                <!-- <option class="text-unbounded" value="2024" <?php if ($year == '2024') echo "selected"; ?>>2023 - 2024</option> -->
+                <option class="text-unbounded" value="2024" <?php if ($year == '2024') echo "selected"; ?>>2023 - 2024</option>
                 <option class="text-unbounded" value="2023" <?php if ($year == '2023') echo "selected"; ?>>2022 - 2023</option>
                 <option class="text-unbounded" value="2022" <?php if ($year == '2022') echo "selected"; ?>>2021 - 2022</option>
                 <!-- <option class="text-unbounded" value="2021" <?php if ($year == '2021') echo "selected"; ?>>2020 - 2021</option>
