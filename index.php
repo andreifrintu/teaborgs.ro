@@ -31,7 +31,7 @@
 
     /* routing pages for future interactions */
     $router['page'] = 'home';
-    $router['logo'] = 'logo-v2-2024';
+    $router['logo'] = 'logo-v3-2024';
     $router['lang'] = $l = (isset($_COOKIE['language'])) ? $_COOKIE['language'] : 1;
 
 ?>
@@ -41,29 +41,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- HTML Title Tag --->
-    <title>Tea Borgs #19121 | RO087 - Romanian Robotics Team</title>
+    <title>Tea-Borgs #19121 | RO087 - Romanian Robotics Team</title>
     <!-- Favicon / Page Icon Link Tag --->
     <link rel="icon" type="image/x-icon" href="/static/logo/<?php echo $router['logo'] . '.ico'; ?>">
     
     <!-- HTML Meta Tags --->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="robotics, computer science, tea borgs, 19121, RO087">
-    <meta name="description" content="Tea Borgs #19121 | RO087 - Science in a cup of tea! Romanian Robotics Team from Colegiul Național Tudor Vladimirescu, Gorj, Târgu Jiu">
+    <meta name="keywords" content="robotics, computer science, Tea-Borgs, 19121, RO087">
+    <meta name="description" content="Tea-Borgs #19121 | RO087 - Science in a cup of tea! Romanian Robotics Team from Colegiul Național Tudor Vladimirescu, Gorj, Târgu Jiu">
     <!-- Google / Search Engine Meta Tags --->
-    <meta itemprop="name" content="Tea Borgs #19121 | RO087 - Romanian Robotics Team">
+    <meta itemprop="name" content="Tea-Borgs #19121 | RO087 - Romanian Robotics Team">
     <meta itemprop="image" content="/static/logo/<?php echo $router['logo'] . '.png'; ?>">
-    <meta itemprop="description" content="Tea Borgs #19121 | RO087 - Science in a cup of tea! Romanian Robotics Team from Colegiul Național Tudor Vladimirescu, Gorj, Târgu Jiu">
+    <meta itemprop="description" content="Tea-Borgs #19121 | RO087 - Science in a cup of tea! Romanian Robotics Team from Colegiul Național Tudor Vladimirescu, Gorj, Târgu Jiu">
     <!-- Facebook Meta Tags --->
     <meta property="og:type" content="website">
     <meta property="og:url" content="/">
-    <meta property="og:title" content="Tea Borgs #19121 | RO087 - Romanian Robotics Team">
+    <meta property="og:title" content="Tea-Borgs #19121 | RO087 - Romanian Robotics Team">
     <meta property="og:image" content="/static/logo/<?php echo $router['logo'] . '.png'; ?>">
-    <meta property="og:description" content="Tea Borgs #19121 | RO087 - Science in a cup of tea! Romanian Robotics Team from Colegiul Național Tudor Vladimirescu, Gorj, Târgu Jiu">
+    <meta property="og:description" content="Tea-Borgs #19121 | RO087 - Science in a cup of tea! Romanian Robotics Team from Colegiul Național Tudor Vladimirescu, Gorj, Târgu Jiu">
     <!-- Twitter Meta Tags --->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Tea Borgs #19121 | RO087 - Romanian Robotics Team">
+    <meta name="twitter:title" content="Tea-Borgs #19121 | RO087 - Romanian Robotics Team">
     <meta name="twitter:image" content="/static/logo/<?php echo $router['logo'] . '.png'; ?>">
-    <meta name="twitter:description" content="Tea Borgs #19121 | RO087 - Science in a cup of tea! Romanian Robotics Team from Colegiul Național Tudor Vladimirescu, Gorj, Târgu Jiu">
+    <meta name="twitter:description" content="Tea-Borgs #19121 | RO087 - Science in a cup of tea! Romanian Robotics Team from Colegiul Național Tudor Vladimirescu, Gorj, Târgu Jiu">
 
     <!-- Disable Search Engine Indexing --->
     <meta property="robots" content="noindex">
@@ -87,7 +87,7 @@
                 <img alt="" src="/static/pages/ff_robot.png" class="w-sm-100 fil" style="width: 80%;">
             </div>
             <div style="width: 50%;" class="w-sm-100 d-flex flex-column align-items-center fir">
-                <h1 class="fs-1 text-unbounded text-white">Tea Borgs<br>#19121 | RO087<br><span><?php echo ($l == 1) ? "Știință într-o ceașcă de ceai!" : "Science in a cup of tea!"; ?></span><br></h1>
+                <h1 class="fs-1 text-unbounded text-white">Tea-Borgs<br>#19121 | RO087<br><span><?php echo ($l == 1) ? "Știință într-o ceașcă de ceai!" : "Science in a cup of tea!"; ?></span><br></h1>
                 <a style="width: 75%;" class="w-sm-100 btn btn-lg fw-bold btn-outline-light text-unbounded" href="/about/"><?php echo ($l == 1) ? "Povestea noastră" : "Our story"; ?></a>
             </div>
         </div>
@@ -98,7 +98,7 @@
             <br><br>
             <div class="">
                 <h1 class="fs-1 text-unbounded text-blue fil"><?php echo ($l == 1) ? "Cine suntem noi?" : "Who are we?"; ?></h1>
-                <p class="text-justify text-blue-light fs-4 fib"><?php echo ($l == 1) ? "În orașul lui Brâncuși, pe porțile Colegiului Național „Tudor Vladimirescu” povestea noastră începe. Numele nostru este Tea-Borgs, o echipă de robotică care în călătoria sa spre excelență, se concentrează pe dezvoltarea abilităților tehnice, cât și a celor non-tehnice, precum lucrul în echipă, comunicarea și rezolvarea creativă a problemelor. Țelul nostru este crearea unui mediu prietenos și deschis, care încurajează spiritul de echipă și susține creativitatea fiecărui membru al echipei." : "In the town of Brâncusi, at the gates of the „Tudor Vladimirescu” National College, our story begins. Our name is Tea-Borgs #19121 RO087, a robotics team that, in its journey to excellence, focuses on developing both technical and non-technical skills such as teamwork, communication and creative problem solving. Our goal is to create a friendly and open environment that encourages team spirit and supports the creativity of each team member!"; ?></p>
+                <p class="text-justify text-blue-light fs-4 fib"><?php echo ($l == 1) ? "📍În orașul lui 𝐁𝐫â𝐧𝐜𝐮ș𝐢, pe porțile 𝐂𝐨𝐥𝐞𝐠𝐢𝐮𝐥𝐮𝐢 𝐍𝐚ț𝐢𝐨𝐧𝐚𝐥 `𝐓𝐮𝐝𝐨𝐫 𝐕𝐥𝐚𝐝𝐢𝐦𝐢𝐫𝐞𝐬𝐜𝐮` povestea noastră începe. 📖<br>🦖Numele nostru este 𝐓𝐄𝐀-𝐁𝐎𝐑𝐆𝐒, o echipă de robotică care în călătoria sa spre excelență, se concentrează pe dezvoltarea abilităților tehnice, cât și a celor non-tehnice, precum lucrul în echipă, comunicarea și rezolvarea creativă a problemelor. 💙<br>☀️Țelul nostru este crearea unui mediu 𝐢𝐧𝐜𝐥𝐮𝐬𝐢𝐯 și 𝐬𝐭𝐢𝐦𝐮𝐥𝐚𝐭𝐢𝐯, unde spiritul de echipă de echipă să prospere și creativitatea fiecărui membru să fie susținută și încurajată.🌍<br>🍵Deviza noastră 𝐒𝐂𝐈𝐄𝐍𝐂𝐄 𝐈𝐍 𝐀 𝐂𝐔𝐏 𝐎𝐅 𝐓𝐄𝐀 înglobează credința noastră în fuziunea dintre 𝐢𝐧𝐨𝐯𝐚ț𝐢𝐞 și 𝐭𝐫𝐚𝐝𝐢ț𝐢𝐞. La fel ca și cea mai bună ceașcă de ceai care amestecă diferite elemente pentru a crea armonie, echipa noastră adună perspective și idei diverse pentru a crea ceva extraordinar.🇷🇴" : "📍In the city of 𝐁𝐫â𝐧𝐜𝐮ș𝐢, at the gates of `𝐓𝐮𝐝𝐨𝐫 𝐕𝐥𝐚𝐝𝐢𝐦𝐢𝐫𝐞𝐬𝐜𝐮` 𝐍𝐚𝐭𝐢𝐨𝐧𝐚𝐥 𝐂𝐨𝐥𝐥𝐞𝐠𝐞, our story begins. 📖<br>🦖Our name is 𝐓𝐄𝐀-𝐁𝐎𝐑𝐆𝐒, a robotics team that on its journey towards excellence, focuses on developing both technical skills, as well as non-technical ones, such as teamwork, communication, and creative problem-solving. 💙<br>☀️Our goal is to create an 𝐢𝐧𝐜𝐥𝐮𝐬𝐢𝐯𝐞 and 𝐬𝐭𝐢𝐦𝐮𝐥𝐚𝐭𝐢𝐧𝐠 environment, where the team spirit thrives and the creativity of each member is supported and encouraged. 🌍<br>🍵Our motto 𝐒𝐂𝐈𝐄𝐍𝐂𝐄 𝐈𝐍 𝐀 𝐂𝐔𝐏 𝐎𝐅 𝐓𝐄𝐀 encapsulates our belief in the fusion of 𝐢𝐧𝐧𝐨𝐯𝐚𝐭𝐢𝐨𝐧 and 𝐭𝐫𝐚𝐝𝐢𝐭𝐢𝐨𝐧. Just like the finest cup of tea blends different elements to create harmony, our team gathers diverse perspectives and ideas to create something extraordinary. 🇷🇴"; ?></p>
             </div>
             <div class="">
                 <h1 class="fs-1 text-unbounded text-blue fil"><?php echo ($l == 1) ? "Ce este FTC?" : "What is FTC?"; ?></h1>
