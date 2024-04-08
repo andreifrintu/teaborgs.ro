@@ -30,6 +30,7 @@
                     <li class="nav-item rounded fit"><a class="nav-link text-md-white text-md-lg" href="/sponsors/2024"><?php echo ($l == 1) ? "Sponsori" : "Sponsors"; ?></a></li>
                     <li class="nav-item rounded fit"><a class="nav-link text-md-white text-md-lg" href="/map/"><?php echo ($l == 1) ? "Hartă FTC" : "FTC Map"; ?></a></li>
                     <li class="nav-item rounded fit"><a class="nav-link text-md-white text-md-lg" href="/news/"><?php echo ($l == 1) ? "Știri & Evenimente" : "News & Events"; ?></a></li>
+                    <li class="nav-item rounded fit"><a class="nav-link text-md-white text-md-lg" href="https://linktr.ee/tea_borgs"><?php echo ($l == 1) ? "Linktree" : "Linktree"; ?></a></li>
                     <li class="rounded fit"><img src="<?php echo ($l == 1) ? "/static/icons/icons8-great-britain.png" : "/static/icons/icons8-romania.png"; ?>" id="swapLanguage" onclick="swapLanguage()" style="width: 50px; height: 50px; cursor: pointer;" class="rounded"></li>
                 </ul>
             </div>
