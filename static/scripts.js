@@ -51,6 +51,9 @@ $(document).ready(function() {
                                         NavbarDelay = setTimeout(() => {
                                             $('.fit:nth-child(10)').css("visibility", "visible");
                                             $('.fit:nth-child(10)').addClass("fade-in-top");
+                                            NavbarDelay = setTimeout(() => {
+                                            $('.fit:nth-child(11)').css("visibility", "visible");
+                                            $('.fit:nth-child(11)').addClass("fade-in-top");
                                             clearTimeout(NavbarDelay);
                                             var Delay = setTimeout(() => {
                                                 $('.fil').first().css("visibility", "visible");
@@ -59,6 +62,7 @@ $(document).ready(function() {
                                                 $('.fir').first().addClass("fade-in-right");
                                                 clearTimeout(Delay);
                                             }, 50);
+                                        }, 50);
                                         }, 50);
                                     }, 50);
                                 }, 50);
