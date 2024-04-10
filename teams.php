@@ -31,7 +31,7 @@
 
     /* routing pages for future interactions */
     $router['page'] = 'teams';
-    $router['logo'] = 'logo-v2-2024';
+    $router['logo'] = 'logo-v3-2024';
     $router['lang'] = $l = (isset($_COOKIE['language'])) ? $_COOKIE['language'] : 1;
 
     $years_of_activity = array("2019", "2020", "2021", "2022", "2023", "2024");
@@ -185,7 +185,7 @@
                 
             ?>" style="min-height: 45vh;" id="Third<? echo $contor; ?>">
                 <div style="background-image: url('<?php echo $member->poza; ?>'); background-size: cover; background-position: center; min-height: 300px; aspect-ratio: 1:1 !important;" id="<?php echo $member->nume; ?> "></div>
-                <h3 class="text-center text-blue"><?php if ($member->nume == "Andrei Fr&#238;ntu") echo "<a href='https://codulluiandrei.ro/' style='color: #8282ff; text-decoration: none;'>" . $member->nume . "</a>"; else echo $member->nume; ?></h3>
+                <h3 class="text-center text-blue"><?php if ($member->nume == "Andrei Fr&#238;ntu") echo "<a href='https://codulluiandrei.ro/' style='color: #8282ff; text-decoration: none;'>" . $member->nume . "</a>"; else if ($member->nume == "Andra - Gabriela C&#238;rstoiu") echo "<a href='https://www.linkedin.com/in/andra-gabriela-cîrstoiu/' style='color: #8282ff; text-decoration: none;'>" . $member->nume . "</a>"; else echo $member->nume; ?></h3>
                 <h5 class="text-center text-secondary fw-bold"><?php echo $member->rol; ?></h5>
             </div>
 
@@ -196,6 +196,12 @@
             <input type="hidden" value="<?php echo $contor; ?>" id="ThirdCounter">
 
         </div>
+        
+        <?php
+            if ($year == '2024') {
+                echo '<p class="text-center text-white fs-2 pt-4">&#128247; by @<a href="https://linktr.ee/LucaDragodan" class="text-white">Luca Dragodan</a></p>';
+            }
+        ?>
     </section>
 
     
