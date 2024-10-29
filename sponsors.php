@@ -152,7 +152,7 @@
                 else if ($contor % $elementsPerRow == 0) echo "fir";
                 else echo "fib";
                 
-            ?>" style="min-height: 45vh;" id="Third<? echo $contor; ?>">
+            ?>" style="min-height: 45vh;" id="Third<?php echo $contor; ?>">
                 <div style="background-image: url('<?php echo $sponsor->poza; ?>'); background-size: contain; background-position: center; min-height: 300px; aspect-ratio: 1:1 !important; background-repeat: no-repeat;"></div>
                 <h5 class="text-center text-blue fw-bold">sponsor <?php if ($sponsor->rol == 'gold') echo '<img class="w-100" src="/static/icons/gold-icon.png">'; else if ($sponsor->rol == 'silver') echo '<img class="w-100" src="/static/icons/silver-icon.png">'; else echo '<img class="w-100" src="/static/icons/bronze-icon.png">'; ?></h5>
             </div>
