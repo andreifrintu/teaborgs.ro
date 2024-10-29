@@ -110,7 +110,7 @@
                 else if ($contor % $elementsPerRow == 0) echo "fir";
                 else echo "fib";
                 
-            ?>" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas<?php echo $contor; ?>" aria-controls="offcanvas<?php echo $contor; ?>" style="min-height: 420px;" id="Third<? echo $contor; ?>">
+            ?>" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas<?php echo $contor; ?>" aria-controls="offcanvas<?php echo $contor; ?>" style="min-height: 420px;" id="Third<?php echo $contor; ?>">
                 <div style="background-image: url('<?php echo $poza;?>'); background-size: cover; background-position: center; min-height: 300px; aspect-ratio: 1/1 !important;"></div>
                 <h2 class="text-center text-blue fs-5 px-1"><?php echo $nume; ?></h2>
                 <h5 class="text-center text-secondary fw-bold fs-6"><?php echo $data; ?></h5>
