@@ -183,7 +183,7 @@
                 else if ($contor % $elementsPerRow == 0) echo "fir";
                 else echo "fib";
                 
-            ?>" style="min-height: 45vh;" id="Third<? echo $contor; ?>">
+            ?>" style="min-height: 45vh;" id="Third<?php echo $contor; ?>">
                 <div style="background-image: url('<?php echo $member->poza; ?>'); background-size: cover; background-position: center; min-height: 300px; aspect-ratio: 1:1 !important;" id="<?php echo $member->nume; ?> "></div>
                 <h3 class="text-center text-blue"><?php if ($member->nume == "Andrei Fr&#238;ntu") echo "<a href='https://codulluiandrei.ro/' style='color: #8282ff; text-decoration: none;'>" . $member->nume . "</a>"; else if ($member->nume == "Andra - Gabriela C&#238;rstoiu") echo "<a href='https://www.linkedin.com/in/andra-gabriela-cîrstoiu/' style='color: #8282ff; text-decoration: none;'>" . $member->nume . "</a>"; else echo $member->nume; ?></h3>
                 <h5 class="text-center text-secondary fw-bold"><?php echo $member->rol; ?></h5>
